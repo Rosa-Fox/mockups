@@ -14,7 +14,7 @@ Currently a user would access the Specialist Publisher app to access both manual
 
 In future they will access the apps separately via signon:
 
-SCREEN GRAB SIGN ON
+![Accessing SP via New Sign On](docs/new-signon.png)
 
 We needed to decide what the new landing page would be for the Finders app, as it can no longer be `/manuals`:
 
@@ -46,8 +46,8 @@ it will look similar to this:
 ![gds_editor finders landing page](docs/gds-editor-finders-dropdown.png)
 
 - In the unlikely case that the user has an `organisation_content_id` which is not recognised by the application, they will be redirected to an `/error` page.
-- 
-SCREEN GRAB ERRORS
+
+![errors page](docs/sp-error.png)
 
 ## Manuals Publisher (name TBC!)
 
