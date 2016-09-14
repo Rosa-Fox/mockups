@@ -12,6 +12,9 @@ Currently a user would access the Specialist Publisher app to access both manual
 
 ![Accessing SP via Sign On](docs/current-signon.png)
 
+In future they will access the apps separately via signon:
+
+SCREEN GRAB SIGN ON
 
 We needed to decide what the new landing page would be for the Finders app, as it can no longer be `/manuals`:
 
@@ -22,7 +25,7 @@ We needed to decide what the new landing page would be for the Finders app, as i
 
 ## Finders Publisher
 
-The Finders application will be named 'Finders Publisher'. Providing the user has been granted access, there will be a link to Finders Publisher in their list of available apps in Sign On.
+The Finders application will be named 'Specialist Publisher'. Providing the user has been granted access, there will be a link to Specialist Publisher in their list of available apps in Sign On.
 
 - If a user has access to 1 finder, then that finder page will be the landing page.
 
@@ -42,6 +45,10 @@ it will look similar to this:
 
 ![gds_editor finders landing page](docs/gds-editor-finders-dropdown.png)
 
+- In the unlikely case that the user has an `organisation_content_id` which is not recognised by the application, they will be redirected to an `/error` page.
+- 
+SCREEN GRAB ERRORS
+
 ## Manuals Publisher (name TBC!)
 
 Providing the user has been granted access, there will be a link to the Manuals Publisher in the list of available apps in Sign On.
@@ -50,4 +57,4 @@ The home page will be the `/manuals` page.
 
 ![Manuals](docs/manuals.png)
 
-[Here is a link to the code which rips out manuals from Specialist Publisher (1st commit) and displays the homepage as described here](https://github.com/alphagov/specialist-publisher-rebuild/compare/separate-finders-into-their-own-app(2nd commit!))
+[Here is a link to the code which rips out manuals from Specialist Publisher (1st commit) and displays the homepage as described here](https://github.com/alphagov/specialist-publisher-rebuild/pull/902)
